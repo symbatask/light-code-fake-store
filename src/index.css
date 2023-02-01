@@ -1,0 +1,59 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 30px 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.header__link{
+    margin-left: 15px;
+    font-family: 'GFS Didot', serif;
+}
+
+
+
+
+
+/* card */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+}
+.card__info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.card__info p{
+   font-size: 12px;
+}
+.card__img{
+    width: 100%;
+    height: 300px;
+}
+.card__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
